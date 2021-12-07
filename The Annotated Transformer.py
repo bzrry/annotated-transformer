@@ -1434,7 +1434,8 @@ def rebatch(pad_idx, batch):
 
 
 # %% id="jZeYHJcdTsqN"
-create_model = False
+#create_model = False
+create_model = True
 devices = range(torch.cuda.device_count())
 
 if create_model:
